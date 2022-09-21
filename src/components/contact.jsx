@@ -1,11 +1,11 @@
 import React from "react";
 
-function Contact(){
+function Contact(props){
     return(
         <div>
-            <img src="https://img.a.transfermarkt.technology/portrait/header/781-1488880368.jpg?lm=1" alt="jose mourinho" />
-            <p>contact: +246677324</p>
-            <p>email: josemourinho@gmail.com</p>
+            <img src= {props.img} alt="jose mourinho" />
+            <p>{props.tel}</p>
+            <p>{props.email}</p>
         </div>
     )
 }
