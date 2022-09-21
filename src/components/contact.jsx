@@ -3,7 +3,8 @@ import React from "react";
 function Contact(props){
     return(
         <div>
-            <img src= {props.img} alt="jose mourinho" />
+            <h2>{props.name}</h2>
+            <img src= {props.img} alt={props.alt} />
             <p>{props.tel}</p>
             <p>{props.email}</p>
         </div>
