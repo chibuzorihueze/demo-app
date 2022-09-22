@@ -1,4 +1,10 @@
 body {
   margin: 0;
-  padding-bottom: 100px;
+  padding: 25px;
+  max-width: 400px;
+  min-width: 400px;
+  background-color: #dfe6e9;
+  text-align: center;
+  align-items: center;
 }
+
