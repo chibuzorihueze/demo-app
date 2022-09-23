@@ -1,5 +1,6 @@
 import React from "react";
 import Contact from "./contact";
+import details from "./fetch";
 
 function Card(){
     return(
@@ -7,30 +8,31 @@ function Card(){
             <h1 className="heading">Contact App</h1>
       <Contact 
 
-      name ="Jose Mourinho"
-      img = "https://img.a.transfermarkt.technology/portrait/header/781-1488880368.jpg?lm=1"
-      tel = "+24667732684"
-      email = "josemourinho@gmail.com"
-      alt ="Jose Mourinho"
+        name ={details[0].name}
+        img = {details[0].img}
+        tel = {details[0].tel}
+        email = {details[0].email}
+        alt = {details[0].alt}
       />
 
-      <Contact
+    <Contact
 
-      name = "Denzel Washington"
-      img ="https://st.depositphotos.com/1814084/1709/i/450/depositphotos_17095517-stock-photo-denzel-washington.jpg"
-      tel = "+13323444334"
-      email = "denzelwashington@gmail.com"
-      alt = "Denzel Washington"
-      
-      />
+        name ={details[1].name}
+        img = {details[1].img}
+        tel = {details[1].tel}
+        email = {details[1].email}
+        alt = {details[1].alt}
+    />
+    
 
-      <Contact
-      name = "Chris Oyakilome"
-      img = "https://christembassynungua.org/wp-content/uploads/2016/06/pastor-chris-oyakhilome-christ-embassy-church.jpg"
-      tel = "tel: +23486788999"
-      email ="chrisoyakilome@gmail.com"
-      alt ="Chris Oyakilome"
-      />
+    <Contact
+
+        name ={details[2].name}
+        img = {details[2].img}
+        tel = {details[2].tel}
+        email = {details[2].email}
+        alt = {details[2].alt}
+    />
     </div>
     
     )

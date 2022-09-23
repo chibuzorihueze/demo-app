@@ -10,7 +10,7 @@ function Contact(props){
                 </div>
                 <div className="bottom">
                     <p className="info">{props.tel}</p>
-                    <p className="info">{props.email}</p>
+                    <p className="">{props.email}</p>
                 </div>
             </div>
 
