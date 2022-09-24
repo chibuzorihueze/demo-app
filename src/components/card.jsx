@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "./contact";
-import details from "./fetch";
+import details from "./details";
 
 function contactsLoop(contacts){
     return( <Contact
